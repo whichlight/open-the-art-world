@@ -2,6 +2,11 @@ $(document).ready(function () {
 
     var e = [];
     var s, i;
+
+    $("#why").click(function(){
+      alert("I would love to see Digital Revolution, but I cannot make it to London for the exhibit. I am happy to see at least these works.");
+    });
+
     $('#artists').show();
     $("#janvantomme").click(function () {
         var e = document.createElement("canvas");
